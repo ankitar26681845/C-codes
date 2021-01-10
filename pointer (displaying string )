@@ -1,0 +1,11 @@
+//write a program to display string using different syntax using operator * and &
+#include<iostream>
+using namespace std;
+int main()
+{
+    char *name= "C plus plus";
+    cout<<*&(name);
+    cout<<(*name);
+    cout<<*&name;
+    
+}
