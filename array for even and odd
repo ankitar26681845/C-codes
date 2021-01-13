@@ -1,0 +1,24 @@
+// write a program to add even and odd numbers from 1 to 10. store them and display their results in two seprate arrays 
+#include<stdio.h>
+int main()
+{
+    int sumo=0,sume=0,i=0,odd[5],even[5],a=-1,b=-1;
+    for(i=1;i<=10;i++)
+    {
+        if(i%2==0)
+        even[++a]=i;
+        else 
+        odd[++b]=i;
+        
+    }
+    printf("\n \t Even \t\t Odd");
+    for(i=0;i<5;i++)
+    {
+        printf("\n \t%d \t\t %d",even[i],odd[i]);
+        sume=sume+even[i];
+        sumo=sumo+odd[i];
+        
+    }
+    printf("\n\t============\n");
+    printf("Addition: %d %14d",sume,sumo);
+}
