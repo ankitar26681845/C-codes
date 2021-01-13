@@ -1,0 +1,23 @@
+C is the topmost and basic programming which is important for every programmer.
+C is the basic and advance both type of programming language by which we can create another programming language and most of the programming languages are already based on this such as c++, ruby, and many more. Lots of the games, search engines and webpages are created with the help of c program. 
+This is our basic introduction about this programming language 
+Before starting of this program i would like to explain some parts and other things which is important and by the help of this it will be easy and helpful during programming 
+such as types of OS(operating system)- mac, Window, linuxetc
+now for this program we must have a compilier on which we can decode the program and we musgt have the codding platform such as devC, or any online platform.
+some common parts of the c program such as 
+
+
+
+
+header(in which we use #, such as #include<stdio.h>, #include<conio.h> etc)
+then after that global declaration(mainly use in fucntion but sometimes it use in other also such as pointer and alot)
+then main function such as (int main(), void main())
+then 
+declaration part in which we declare and write the code and program 
+then 
+executable part in which we execute the local variable 
+then function call
+then user defined function 
+then body of the function 
+but some time we by ourself change the place of these things like we can give comment to anywhere.
+comments 
