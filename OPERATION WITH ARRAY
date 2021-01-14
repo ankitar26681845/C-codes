@@ -1,0 +1,25 @@
+//operation with array  for deletion 
+#include<stdio.h>
+int main(){
+    int num[20]={0},i,j,k,l,m;
+    printf("enter the number of element:");
+    scanf("%d",&m);
+    for(j=0;j<m;j++)
+    scanf("%d",&num[j]);
+    printf("enter the elements:");
+    for(j=0;j<m;j++)
+    printf("\n %d %u",num[j],&num[j]);
+    printf("\n Enter the element to delete ");
+    scanf("%d",&l);
+    l--;
+    for(j=0;j<m;j++)
+    {
+        if(j>=l)
+        num[j]=num[j+1];
+        
+    }
+    for(j=0;j<m;j++)
+    if(num[j]!=0)
+    printf("\n %d %u",num[j],&num[j]);
+    
+}
